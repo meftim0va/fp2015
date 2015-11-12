@@ -1,5 +1,8 @@
 #lang racket
 
+(provide
+  to-binary-string)
+
 (define (string-reverse str)
   (define (iter result count)
     (cond
