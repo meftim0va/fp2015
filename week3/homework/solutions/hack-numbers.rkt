@@ -2,6 +2,9 @@
 
 (require "../../../week2/homework/solutions/binary.rkt")
 
+(provide
+  palindrome?)
+
 ; -------------------------------------------------------- ;
 
 (define (palindrome? str)
